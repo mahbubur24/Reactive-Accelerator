@@ -16,6 +16,7 @@ while (increment < 10000) {
 }
 
 container.innerHTML = array.join(" ");
+/**ekhane batch update hocche tai fast , sobgulo operatio ekbare kore niye last akta dom update */
 
 // slow
 
@@ -23,3 +24,4 @@ container.innerHTML = array.join(" ");
 //     increment++;
 //     container.innerHTML += " " + increment;
 // }
+/** ekhane slow karon proti iteration a DOM k update korte hocche */
