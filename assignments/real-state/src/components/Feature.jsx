@@ -1,5 +1,30 @@
 import FEATUREDATA from "../assets/data/feature-data";
 
+function FeatureList(prop) {
+  return (
+    <div className="w-full px-4 md:w-1/2 lg:w-1/4">
+      <div className=" group mb-12">
+        <div className="relative z-10 mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-[14px] bg-primary">
+          <span className="absolute left-0 top-0 -z-[1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-[14px] bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"></span>
+          <img src={prop.iconSrc} alt="gift icon" />
+        </div>
+        <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
+          {prop.title}
+        </h4>
+        <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
+          {prop.details}
+        </p>
+        <a
+          href="javascript:void(0)"
+          className="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+        >
+          Learn More
+        </a>
+      </div>
+    </div>
+  );
+}
+
 export default function Features() {
   return (
     <section className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
@@ -34,30 +59,5 @@ export default function Features() {
         </div>
       </div>
     </section>
-  );
-}
-
-function FeatureList(prop) {
-  return (
-    <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-      <div className=" group mb-12">
-        <div className="relative z-10 mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-[14px] bg-primary">
-          <span className="absolute left-0 top-0 -z-[1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-[14px] bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"></span>
-          <img src={prop.iconSrc} alt="gift icon" />
-        </div>
-        <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
-          {prop.title}
-        </h4>
-        <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-          {prop.details}
-        </p>
-        <a
-          href="javascript:void(0)"
-          className="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
-        >
-          Learn More
-        </a>
-      </div>
-    </div>
   );
 }

@@ -1,5 +1,55 @@
 import PROPERTYINFO from "../assets/data/property-data";
 
+function PropertyBedAndBath(prop) {
+  return (
+    <div className="flex items-center">
+      <img
+        src={prop.icon}
+        alt={prop.altText}
+        className="w-6 h-6 mr-3 text-gray-600 fill-current"
+      />
+      <p>
+        <span className="font-bold text-gray-900">{prop.itemNumber}</span>{" "}
+        {prop.itemText}
+      </p>
+    </div>
+  );
+}
+
+function PropertyItem(prop) {
+  return (
+    <div className="p-4 bg-white rounded-lg border border-gray-600/10">
+      <img src={prop.imgSrc} alt="property" />
+
+      <div className="p-6">
+        <h4 className="text-2xl font-bold cursor-pointer">{prop.title}</h4>
+        <div className="mt-2">
+          <span className="text-xl font-extrabold text-blue-600">
+            {prop.price}
+          </span>{" "}
+          /M
+        </div>
+      </div>
+
+      <div className="flex justify-between p-4 text-gray-700 border-t border-gray-300">
+        <PropertyBedAndBath
+          icon={"public/svg/property-bed.svg"}
+          altText={""}
+          itemNumber={prop.bedroom}
+          itemText={"Bedrooms"}
+        ></PropertyBedAndBath>
+
+        <PropertyBedAndBath
+          icon={"public/svg/property-bath.svg"}
+          altText={""}
+          itemNumber={prop.bathroom}
+          itemText={"Bathrooms"}
+        ></PropertyBedAndBath>
+      </div>
+    </div>
+  );
+}
+
 export default function Property() {
   return (
     <section>
@@ -33,50 +83,5 @@ export default function Property() {
         </div>
       </div>
     </section>
-  );
-}
-
-function PropertyItem(prop) {
- 
-  return (
-    <div className="p-4 bg-white rounded-lg border border-gray-600/10">
-      <img src={prop.imgSrc} alt="property" />
-
-      <div className="p-6">
-        <h4 className="text-2xl font-bold cursor-pointer">{prop.title}</h4>
-        <div className="mt-2">
-          <span className="text-xl font-extrabold text-blue-600">
-            {prop.price}
-          </span>{" "}
-          /M
-        </div>
-      </div>
-
-      <div className="flex justify-between p-4 text-gray-700 border-t border-gray-300">
-        <div className="flex items-center">
-          <img
-            src="../../public/svg/property-bed.svg"
-            alt=""
-            className="w-6 h-6 mr-3 text-gray-600 fill-current"
-          />
-          <p>
-            <span className="font-bold text-gray-900">{prop.bedroom}</span>{" "}
-            Bedrooms
-          </p>
-        </div>
-
-        <div className="flex items-center">
-          <img
-            src="../../public/svg/property-bath.svg"
-            alt=""
-            className="w-6 h-6 mr-3 text-gray-600 fill-current"
-          />
-          <p>
-            <span className="font-bold text-gray-900">{prop.bathroom}</span>{" "}
-            Bathrooms
-          </p>
-        </div>
-      </div>
-    </div>
   );
 }
