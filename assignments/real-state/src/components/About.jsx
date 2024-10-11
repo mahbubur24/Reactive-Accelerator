@@ -1,4 +1,7 @@
 import Button from "./Button";
+import About1 from "./ui/About-1";
+import About_2 from "./ui/About-2";
+import About_3 from "./ui/About-3";
 export default function About() {
   return (
     <section
@@ -70,13 +73,13 @@ export default function About() {
                     </div>
                     <div>
                       <span className="absolute left-0 top-0 -z-10">
-                        <img src="/svg/about-1.svg" alt="" />
+                        <About1></About1>
                       </span>
                       <span className="absolute right-0 top-0 -z-10">
-                        <img src="/svg/about-2.svg" alt="" />
+                        <About_2></About_2>
                       </span>
                       <span className="absolute bottom-0 right-0 -z-10">
-                        <img src="/svg/about-3.svg" alt="" />
+                        <About_3></About_3>
                       </span>
                     </div>
                   </div>

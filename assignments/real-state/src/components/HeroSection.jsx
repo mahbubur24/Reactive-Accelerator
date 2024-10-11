@@ -1,4 +1,6 @@
 import Button from "./Button";
+import Hero1 from "./ui/Hero-1";
+import Hero2 from "./ui/Hero-2";
 
 export default function HeroSection() {
   return (
@@ -52,10 +54,10 @@ export default function HeroSection() {
                 />
               </div>
               <div className="absolute -left-9 bottom-0 z-[-1]">
-                <img src="/svg/hero-1.svg" alt="" />
+                <Hero1></Hero1>
               </div>
               <div className="absolute -right-6 -top-6 z-[-1]">
-                <img src="/svg/hero-2.svg" alt="" />
+                <Hero2></Hero2>
               </div>
             </div>
           </div>

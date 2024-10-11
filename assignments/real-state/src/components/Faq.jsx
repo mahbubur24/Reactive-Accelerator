@@ -1,15 +1,14 @@
 import FAQUESTIONS from "../assets/data/faq-data";
+import Faq1 from "./ui/Faq-1";
+import Faq2 from "./ui/Faq-2";
+import FaqIcon from "./ui/Faq-icon";
 
 function FaqQuestion(prop) {
   return (
     <div className="w-full px-4 lg:w-1/2">
       <div className="mb-12 flex lg:mb-[70px]">
         <div className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]">
-          <img
-            src="/svg/faq-icon.svg"
-            alt="faq-icon"
-            className="fill-current text-white"
-          />
+          <FaqIcon></FaqIcon>
         </div>
         <div className="w-full">
           <h3 className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
@@ -58,10 +57,10 @@ export default function Faq() {
       </div>
       <div>
         <span className="absolute left-4 top-4 -z-[1]">
-          <img src="/svg/faq-1.svg" alt="faq svg" />
+          <Faq1></Faq1>
         </span>
         <span className="absolute bottom-4 right-4 -z-[1]">
-          <img src="/svg/faq-2.svg" alt="faq svg" />
+          <Faq2></Faq2>
         </span>
       </div>
     </section>

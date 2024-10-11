@@ -1,5 +1,6 @@
 import BLOGDATA from "../assets/data/blog-data";
 import Feature_text, { footer_About_Text } from "../assets/data/link-text-data";
+import Logo from "./ui/logo";
 
 function LinkText(prop) {
   return (
@@ -44,11 +45,7 @@ export default function Footer() {
                 href="javascript:void(0)"
                 className="mb-6 inline-block  max-h-[100px]"
               >
-                <img
-                  src="/images/logo/logo.svg"
-                  alt="logo"
-                  className="max-w-full"
-                />
+                <Logo></Logo>
               </a>
               <p className="mb-8 lg:max-w-[270px] text-base text-gray-7">
                 We create digital experiences for brands and companies by using

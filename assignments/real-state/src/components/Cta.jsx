@@ -1,4 +1,6 @@
 import Button from "./Button";
+import Cta1 from "./ui/Cta-1";
+import Cta2 from "./ui/Cta-2"
 export default function Cta() {
   return (
     <section className="relative z-10 overflow-hidden bg-primary py-20 lg:py-[115px]">
@@ -32,10 +34,10 @@ export default function Cta() {
       </div>
       <div>
         <span className="absolute left-0 top-0">
-          <img src="/svg/cta-1.svg" alt="" />
+          <Cta1></Cta1>
         </span>
         <span className="absolute bottom-0 right-0">
-          <img src="/svg/cta-2.svg" alt="" />
+         <Cta2></Cta2>
         </span>
       </div>
     </section>

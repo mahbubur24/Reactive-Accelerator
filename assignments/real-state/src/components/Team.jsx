@@ -1,4 +1,5 @@
 import TEAMINFO from "../assets/data/team-data";
+import TeamSvg from "./ui/TeamSvg";
 
 function TeamMemberSocialIcon(prop) {
   return (
@@ -20,7 +21,7 @@ function TeamMember(prop) {
           />
           <span className="absolute bottom-0 left-0 -z-10 h-10 w-10 rounded-full bg-secondary opacity-0 transition-all group-hover:opacity-100"></span>
           <span className="absolute right-0 top-0 -z-10 opacity-0 transition-all group-hover:opacity-100">
-            <img src="/svg/team.svg" alt="team-hover-svg" />
+            <TeamSvg></TeamSvg>
           </span>
         </div>
         <div className="text-center">

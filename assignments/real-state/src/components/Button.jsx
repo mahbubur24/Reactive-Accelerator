@@ -1,6 +1,6 @@
 export default function Button(prop) {
   console.log(prop);
-  
+
   return (
     <>
       <a

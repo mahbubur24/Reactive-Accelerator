@@ -1,3 +1,6 @@
+import Location from "./ui/Location";
+import Envelope from "./ui/envelope"
+
 export default function Contact() {
   return (
     <section id="contact" className="relative py-20 md:py-[120px]">
@@ -18,7 +21,7 @@ export default function Contact() {
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
                 <div className="mb-8 flex w-[330px] max-w-full">
                   <div className="mr-6 text-[32px] text-primary">
-                    <img src="/svg/location.svg" alt="" />
+                    <Location></Location>
                   </div>
                   <div>
                     <h5 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
@@ -31,7 +34,7 @@ export default function Contact() {
                 </div>
                 <div className="mb-8 flex w-[330px] max-w-full">
                   <div className="mr-6 text-[32px] text-primary">
-                    <img src="/svg/envelope.svg" alt="" />
+                    <Envelope></Envelope>
                   </div>
                   <div>
                     <h5 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">

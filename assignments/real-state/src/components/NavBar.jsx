@@ -1,5 +1,5 @@
 import navLinkText from "../assets/data/nav-link";
-import Logo from "./svg/logo";
+import Logo from "./ui/logo";
 
 function NavLink(prop) {
   return (
