@@ -1,5 +1,5 @@
 import navLinkText from "../assets/data/nav-link";
-import Logo from "./logo";
+import Logo from "./svg/logo";
 
 function NavLink(prop) {
   return (
@@ -22,11 +22,6 @@ export default function NavBar() {
               href="index.html"
               className="navbar-logo block w-60 max-w-full px-4"
             >
-              {/* <img
-                src="public/images/logo/logo.svg"
-                alt="logo"
-                className="header-logo h-12"
-              /> */}
               <Logo></Logo>
             </a>
 
