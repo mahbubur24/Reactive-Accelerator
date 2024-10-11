@@ -46,7 +46,7 @@ export default function HeroSection() {
             <div className=" relative z-10 mx-auto max-w-[845px]">
               <div className="mt-16">
                 <img
-                  src="/public/images/hero/hero-image.png"
+                  src="/images/hero/hero-image.png"
                   alt="hero"
                   className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
                 />
@@ -55,7 +55,7 @@ export default function HeroSection() {
                 <img src="public/svg/hero-1.svg" alt="" />
               </div>
               <div className="absolute -right-6 -top-6 z-[-1]">
-                <img src="public/svg/hero-2.svg" alt="" />
+                <img src="/svg/hero-2.svg" alt="" />
               </div>
             </div>
           </div>
