@@ -32,10 +32,10 @@ export default function Cta() {
       </div>
       <div>
         <span className="absolute left-0 top-0">
-          <img src="public/svg/cta-1.svg" alt="" />
+          <img src="/svg/cta-1.svg" alt="" />
         </span>
         <span className="absolute bottom-0 right-0">
-          <img src="public/svg/cta-2.svg" alt="" />
+          <img src="/svg/cta-2.svg" alt="" />
         </span>
       </div>
     </section>

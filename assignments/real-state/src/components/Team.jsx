@@ -20,7 +20,7 @@ function TeamMember(prop) {
           />
           <span className="absolute bottom-0 left-0 -z-10 h-10 w-10 rounded-full bg-secondary opacity-0 transition-all group-hover:opacity-100"></span>
           <span className="absolute right-0 top-0 -z-10 opacity-0 transition-all group-hover:opacity-100">
-            <img src="public/svg/team.svg" alt="team-hover-svg" />
+            <img src="/svg/team.svg" alt="team-hover-svg" />
           </span>
         </div>
         <div className="text-center">
@@ -32,15 +32,15 @@ function TeamMember(prop) {
           </p>
           <div className="flex items-center justify-center gap-5">
             <TeamMemberSocialIcon
-              icon={"public/svg/social-facebook.svg"}
+              icon={"/svg/social-facebook.svg"}
               altText={"insta-icon"}
             ></TeamMemberSocialIcon>
             <TeamMemberSocialIcon
-              icon={"public/svg/social-twitter.svg"}
+              icon={"/svg/social-twitter.svg"}
               altText={"insta-icon"}
             ></TeamMemberSocialIcon>
             <TeamMemberSocialIcon
-              icon={"public/svg/social-insta.svg"}
+              icon={"/svg/social-insta.svg"}
               altText={"insta-icon"}
             ></TeamMemberSocialIcon>
           </div>

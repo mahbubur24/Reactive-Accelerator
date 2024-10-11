@@ -1,7 +1,7 @@
 const teamData = [
   {
     id: 1,
-    imgSrc: "../../public/images/team/team-01.png",
+    imgSrc: "/images/team/team-01.png",
     name: " Melissa Tatcher",
     title: " Marketing Expert",
   },

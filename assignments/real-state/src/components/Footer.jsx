@@ -45,7 +45,7 @@ export default function Footer() {
                 className="mb-6 inline-block  max-h-[100px]"
               >
                 <img
-                  src="../../public/images/logo/logo.svg"
+                  src="/images/logo/logo.svg"
                   alt="logo"
                   className="max-w-full"
                 />
@@ -57,23 +57,23 @@ export default function Footer() {
               <div className="-mx-3 flex items-center">
                 <SocialIcon
                   href={"javascript:void(0)"}
-                  icon={"public/svg/footer-1.svg"}
+                  icon={"/svg/footer-1.svg"}
                   altText={"footer-1 svg"}
                 ></SocialIcon>
                 <SocialIcon
                   href={"javascript:void(0)"}
-                  icon={"public/svg/footer-2.svg"}
+                  icon={"/svg/footer-2.svg"}
                   altText={"footer-2 svg"}
                 ></SocialIcon>
 
                 <SocialIcon
                   href={"javascript:void(0)"}
-                  icon={"public/svg/footer-3.svg"}
+                  icon={"/svg/footer-3.svg"}
                   altText={"footer-3 svg"}
                 ></SocialIcon>
                 <SocialIcon
                   href={"javascript:void(0)"}
-                  icon={"public/svg/footer-4.svg"}
+                  icon={"/svg/footer-4.svg"}
                   altText={"footer-4 svg"}
                 ></SocialIcon>
               </div>

@@ -52,7 +52,7 @@ export default function HeroSection() {
                 />
               </div>
               <div className="absolute -left-9 bottom-0 z-[-1]">
-                <img src="public/svg/hero-1.svg" alt="" />
+                <img src="/svg/hero-1.svg" alt="" />
               </div>
               <div className="absolute -right-6 -top-6 z-[-1]">
                 <img src="/svg/hero-2.svg" alt="" />

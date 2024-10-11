@@ -33,14 +33,14 @@ function PropertyItem(prop) {
 
       <div className="flex justify-between p-4 text-gray-700 border-t border-gray-300">
         <PropertyBedAndBath
-          icon={"public/svg/property-bed.svg"}
+          icon={"/svg/property-bed.svg"}
           altText={""}
           itemNumber={prop.bedroom}
           itemText={"Bedrooms"}
         ></PropertyBedAndBath>
 
         <PropertyBedAndBath
-          icon={"public/svg/property-bath.svg"}
+          icon={"/svg/property-bath.svg"}
           altText={""}
           itemNumber={prop.bathroom}
           itemText={"Bathrooms"}

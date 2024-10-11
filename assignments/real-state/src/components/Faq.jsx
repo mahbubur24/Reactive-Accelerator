@@ -6,7 +6,7 @@ function FaqQuestion(prop) {
       <div className="mb-12 flex lg:mb-[70px]">
         <div className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]">
           <img
-            src="public/svg/faq-icon.svg"
+            src="/svg/faq-icon.svg"
             alt="faq-icon"
             className="fill-current text-white"
           />
@@ -58,10 +58,10 @@ export default function Faq() {
       </div>
       <div>
         <span className="absolute left-4 top-4 -z-[1]">
-          <img src="../../public/svg/faq-1.svg" alt="faq svg" />
+          <img src="/svg/faq-1.svg" alt="faq svg" />
         </span>
         <span className="absolute bottom-4 right-4 -z-[1]">
-          <img src="../../public/svg/faq-2.svg" alt="faq svg" />
+          <img src="/svg/faq-2.svg" alt="faq svg" />
         </span>
       </div>
     </section>

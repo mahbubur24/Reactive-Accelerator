@@ -40,7 +40,7 @@ export default function About() {
                 <div className="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
                   <div className="mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px]">
                     <img
-                      src="../../public/images/about/about-image-01.jpg"
+                      src="/images/about/about-image-01.jpg"
                       alt="about image"
                       className="h-full w-full object-cover object-center"
                     />
@@ -50,7 +50,7 @@ export default function About() {
                 <div className="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
                   <div className="mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]">
                     <img
-                      src="../../public/images/about/about-image-02.jpg"
+                      src="/images/about/about-image-02.jpg"
                       alt="about image"
                       className="h-full w-full object-cover object-center"
                     />
@@ -70,13 +70,13 @@ export default function About() {
                     </div>
                     <div>
                       <span className="absolute left-0 top-0 -z-10">
-                        <img src="public/svg/about-1.svg" alt="" />
+                        <img src="/svg/about-1.svg" alt="" />
                       </span>
                       <span className="absolute right-0 top-0 -z-10">
-                        <img src="public/svg/about-2.svg" alt="" />
+                        <img src="/svg/about-2.svg" alt="" />
                       </span>
                       <span className="absolute bottom-0 right-0 -z-10">
-                        <img src="public/svg/about-3.svg" alt="" />
+                        <img src="/svg/about-3.svg" alt="" />
                       </span>
                     </div>
                   </div>
