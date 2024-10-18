@@ -1,0 +1,4 @@
+
+React use kori not for performance
+React use kori developer experience , maintaniblity, 
+and component based organizasion er jonno
